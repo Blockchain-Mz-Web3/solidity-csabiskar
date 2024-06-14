@@ -5,7 +5,7 @@ contract Lock {
     uint num1 = 0;
     uint num2 = 42;
     uint256 [] public number1=[0,1,2];
-    uint256 [] public number2=[3,4,5];
+    uint256 [] public number2=[3,5,4];
     function numbers1() public view returns (uint256[] memory){
         return number1;
     }
